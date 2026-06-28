@@ -1,0 +1,29 @@
+# Traffic Violation Detection System - Dependencies
+# Compatible with Python 3.12+ and modern pip environments
+
+# Core deep learning and computer vision
+ultralytics>=8.3.0
+
+# PyTorch
+torch>=2.6.0
+torchvision>=0.21.0
+
+# Image processing
+opencv-python-headless>=4.10.0
+Pillow>=10.0.0
+numpy>=1.26.0
+
+# OCR
+easyocr>=1.7.1
+
+# Bounding box / geometry utilities
+shapely>=2.0.4
+
+# Misc utilities
+scipy>=1.13.0
+
+# Optional but useful utilities
+matplotlib>=3.9.0
+pandas>=2.2.0
+PyYAML>=6.0.1
+tqdm>=4.66.0
